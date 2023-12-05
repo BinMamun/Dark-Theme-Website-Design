@@ -66,6 +66,7 @@ body {
   display: grid;
   grid-template-columns: 400px 400px 400px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: background 1s, color 1s;
 }
 
 .card {
@@ -77,6 +78,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   position: relative;
+  transition: background 1s, color 1s;
 }
 
 .card-img {
