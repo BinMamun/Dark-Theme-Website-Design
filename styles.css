@@ -5,25 +5,27 @@
   box-sizing: border-box;
 }
 
+
 :root {
   --primary-color: #edf2fc;
   --secondary-color: #212121;
-  --card-primary: #d0feeb;
+  --card-primary: #60ffbd;
   --card-secondary: rgb(255, 199, 199);
 }
+
+
+body {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  transition: background 1s, color 1s;
+}
+
 
 .dark-theme {
   --primary-color: #212121;
   --secondary-color: #edf2fc;
   --card-primary: rgb(255, 193, 85);
   --card-secondary: #d0feeb;
-}
-
-.container {
-  width: 100%;
-  height: 100vh;
-  background: var(--primary-color);
-  padding: 1px;
 }
 
 .navigation {
